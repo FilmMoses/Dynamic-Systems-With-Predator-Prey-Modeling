@@ -19,7 +19,7 @@ This project analyzes the non-linear interaction dynamics of an aquatic ecosyste
 ## Mathematical Formulation
 
 The dynamic state vector $X(t) \in \mathbb{R}^3$ represents normalized ecosystem observables:
-$$X(t) = \begin{bmatrix} x_{\text{WT}}(t) \\ x_{\text{TEMP}}(t) \\ x_{\text{TOT\_AVE}}(t) \end{bmatrix}$$
+$$X(t) = \begin{bmatrix} x_{\text{WT}}(t) \\ x_{\text{TEMP}}(t) \\ $x_{\text{TOT\_AVE}}(t)$ \end{bmatrix}$$
 where $x_{\text{WT}}$ is average specimen weight, $x_{\text{TEMP}}$ is ambient water temperature, and $x_{\text{TOT\_AVE}}$ is the mean plankton density.
 
 ### 1. Finite-Difference Gradients
